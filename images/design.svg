@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#ED3A3A;}
+	.st1{fill:#F95858;}
+	.st2{fill:#A57619;}
+	.st3{fill:#CCA23A;}
+	.st4{fill:#FFFFFF;}
+	.st5{fill:#CDA57D;}
+	.st6{fill:#104E91;}
+	.st7{fill:#09396D;}
+	.st8{fill:#C18E5C;}
+	.st9{fill:#C1C8D1;}
+	.st10{fill:#FDDFB1;}
+</style>
+<path class="st0" d="M48,80h336c17.7,0,32,14.3,32,32v240c0,17.7-14.3,32-32,32H48c-17.7,0-32-14.3-32-32V112C16,94.3,30.3,80,48,80
+	z"/>
+<path class="st1" d="M48,80c-17.7,0-32,14.3-32,32v170.2c19.8,3.8,39.9,5.8,60,5.8c138.6,0,254-89.6,279-208H48z"/>
+<path class="st2" d="M160,16h304c17.7,0,32,14.3,32,32v208c0,17.7-14.3,32-32,32H160c-17.7,0-32-14.3-32-32V48
+	C128,30.3,142.3,16,160,16z"/>
+<path class="st3" d="M464,16H160c-17.7,0-32,14.3-32,32v16h368V48C496,30.3,481.7,16,464,16z"/>
+<path class="st4" d="M160,96h304v160H160V96z"/>
+<path class="st5" d="M312,184h32v72h-32V184z"/>
+<path class="st6" d="M16,352c0,17.7,14.3,32,32,32h336c17.7,0,32-14.3,32-32v-32H16V352z"/>
+<path class="st6" d="M168,384h96v64h-96V384z"/>
+<path class="st7" d="M144,448h144c17.7,0,32,14.3,32,32v16l0,0H112l0,0v-16C112,462.3,126.3,448,144,448z"/>
+<g>
+	<path class="st4" d="M376,344h16v16h-16V344z"/>
+	<path class="st4" d="M344,344h16v16h-16V344z"/>
+	<path class="st4" d="M312,344h16v16h-16V344z"/>
+</g>
+<path class="st5" d="M208,128h64v128h-64V128z"/>
+<path class="st8" d="M208,152h24v16h-24V152z"/>
+<path class="st8" d="M208,184h24v16h-24V184z"/>
+<path class="st8" d="M208,216h40v16h-40V216z"/>
+<path class="st9" d="M315.6,189.8C308.5,186.2,304,179,304,171c0-6.8,3.8-13,9.9-16c3.7-1.9,6.1-5.7,6.1-9.8V128l24,24
+	c5.1,5,8,11.8,8,18.9c0,7.9-4.5,15.2-11.6,18.7c-2.9,1.5-6.1,2.3-9.4,2.2H325C321.7,191.9,318.5,191.2,315.6,189.8L315.6,189.8z"/>
+<path class="st5" d="M384,256v-80l16-48l16,48v80H384z"/>
+<path class="st10" d="M384,176h32l-16-48L384,176z"/>
+</svg>

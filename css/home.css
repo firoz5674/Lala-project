@@ -1,0 +1,38 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #133852;
+}
+
+
+.navbar-brand img {
+    width: 170px;
+}
+.navbar-light .navbar-nav .nav-link {
+    padding: 0px 20px;
+    font-weight: 700;
+    color: #133852;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+/* process */
+.process img {
+    width: 100px;
+}
+.process h1 {
+    margin-bottom: 3rem;
+    font-weight: 600;
+}
+.process p {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 23px;
+}
+/* process */
+
+
