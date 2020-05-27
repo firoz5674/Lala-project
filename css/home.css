@@ -4,11 +4,18 @@ html {
 body {
     font-family: 'Work Sans', sans-serif;
 }
-h1, h2, h3, h4, h5, h6 {
-    color: #133852;
+h1, h2, h3, h4, h5, h6 { color: #133852; }
+p { color: #717171; font-size: 17px; line-height: 29px; }
+
+@media (max-width: 768px) {
+    .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 
+/* navbar */
 .navbar-brand img {
     width: 170px;
 }
@@ -20,6 +27,33 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 
+@media (max-width: 768px) {
+    .navbar-brand img {
+        width: 120px;
+    }
+    #navbarContent {
+        position: absolute;
+        top: 65px;
+        left: 0;
+        z-index: 9999;
+        width: 100%;
+    }
+    .navbar-nav {
+        background-color: #01212b;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        padding: 7px 15px;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 600;
+        border-bottom: 1px solid #08485b;
+    }
+    .navbar {
+        padding: 5px 5px;
+    }
+}
+/* //navbar */
+
 /* process */
 .process img {
     width: 100px;
@@ -27,12 +61,46 @@ h1, h2, h3, h4, h5, h6 {
 .process h1 {
     margin-bottom: 3rem;
     font-weight: 600;
+    font-size: 32px;
 }
 .process p {
-    margin-top: 20px;
+    margin-top: 18px;
     font-weight: 600;
     font-size: 23px;
 }
+.process figure {
+    padding: 14px 0px;
+    box-shadow: 2px 4px 9px rgba(0,0,0,0.2);
+}
 /* process */
+
+/* about */
+.about h2 {
+    text-align: center;
+    margin-bottom: 28px;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-weight: 600;
+}
+.about h3 {
+    color: #800;
+    text-transform: capitalize;
+}
+.about p strong {
+    color: #717171;
+}
+
+@media (max-width: 674px) {
+    .about h3 {
+        margin-top: 22px;
+    }
+    .about p strong {
+        text-align: left !important;
+    }
+    .about p {
+        text-align: justify;
+    }
+}
+/* //about */
 
 
