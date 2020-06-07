@@ -74,12 +74,57 @@ p {
 
 /* //navbar */
 
+/* kloud intro */
+.kloud-intro h1 {
+    border-top: 1px solid #cecece;
+    text-transform: uppercase;
+    padding-top: 20px;
+    font-weight: 700;
+}
+.kloud-intro h2 {
+    border-bottom: 1px solid #cecece;
+    padding-bottom: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #616161;
+    font-size: 32px;
+}
+.kloud-intro span {
+    color: #ff5e14;
+    font-weight: 700;
+}
+.kloud-intro i {
+    color: #133852;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .kloud-intro h1 {
+        font-size: 32px;
+    }
+    .kloud-intro h2 {
+        font-size: 23px;
+        line-height: 32px;
+    }
+}
+@media (min-width: 376px) and (max-width: 414px) {
+    .kloud-intro h1 {
+        font-size: 32px;
+    }
+    .kloud-intro h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+}
+/* //kloud intro */
+
 /* process */
 .process img {
     width: 100px;
 }
 
-.process h1 {
+.process h2 {
     margin-bottom: 3rem;
     font-weight: 600;
     font-size: 32px;
@@ -111,9 +156,40 @@ p {
     color: #800;
     text-transform: capitalize;
 }
+.about ul {
+    padding-inline-start: initial;
+    margin-top: 15px;
+}
+.about ul li {
+    font-size: 18px;
+    color: #717171;
+    list-style: none;
+    margin-bottom: 7px;
+    display: flex;
+}
+.about ul li::before {
+    content: '\f00c';
+    font-size: 17px;
+    display: inline-block;
+    color: #133852;
+    font-family: 'FontAwesome';
+    padding-right: 15px;
+}
+.about ol {
+    padding-inline-start: inherit;
+}
+.about ol li {
+    list-style: disc;
+    color: #717171;
+    font-size: 18px;
+    margin-bottom: 7px;
+}
 
 .about p strong {
     color: #717171;
+    font-size: 19px;
+    display: inline-block;
+    line-height: 27px;
 }
 .about video {
     max-width: 100% !important;
