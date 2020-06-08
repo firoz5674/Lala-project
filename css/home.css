@@ -33,9 +33,14 @@ p {
 .navbar-brand img {
     width: 170px;
 }
+.navbar-brand {
+    font-weight: 700;
+    color: #133852;
+    font-size: 23px;
+}
 
 .navbar-light .navbar-nav .nav-link {
-    padding: 0px 20px;
+    padding: 23px 20px;
     font-weight: 700;
     color: #133852;
     font-size: 17px;
