@@ -6,15 +6,6 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: #133852;
-}
-
 p {
     color: #717171;
     font-size: 17px;
@@ -35,7 +26,7 @@ p {
 }
 .navbar-brand {
     font-weight: 700;
-    color: #133852;
+    color: #70ad47 !important;
     font-size: 23px;
 }
 
@@ -84,7 +75,8 @@ p {
     border-top: 1px solid #cecece;
     text-transform: uppercase;
     padding-top: 20px;
-    font-weight: 700;
+    font-weight: 600;
+    color: #70ad47;
 }
 .kloud-intro h2 {
     border-bottom: 1px solid #cecece;
@@ -95,11 +87,11 @@ p {
     font-size: 32px;
 }
 .kloud-intro span {
-    color: #ff5e14;
+    color: #70ad47;
     font-weight: 700;
 }
 .kloud-intro i {
-    color: #133852;
+    color: #ff5e14;
     font-weight: 700;
     font-style: normal;
 }
@@ -133,6 +125,7 @@ p {
     margin-bottom: 3rem;
     font-weight: 600;
     font-size: 32px;
+    color: #70ad47;
 }
 
 .process p {
@@ -155,10 +148,11 @@ p {
     text-transform: uppercase;
     font-size: 32px;
     font-weight: 600;
+    color: #70ad47;
 }
 
 .about h3 {
-    color: #800;
+    color: #70ad47;
     text-transform: capitalize;
 }
 .about ul {
@@ -191,7 +185,7 @@ p {
 }
 
 .about p strong {
-    color: #717171;
+    color: #70ad47;
     font-size: 19px;
     display: inline-block;
     line-height: 27px;
@@ -254,7 +248,7 @@ p {
     margin-bottom: 50px;
 }
 .btn-outline-dark:not(:disabled):not(.disabled).active, .btn-outline-dark:not(:disabled):not(.disabled):active, .show>.btn-outline-dark.dropdown-toggle{
-    background-color: #ff5e14 !important;
+    background-color: #70ad47 !important;
     padding: 10px 25px;
 }
 .portfolio-menu ul li {
@@ -335,7 +329,7 @@ p {
 }
 
 .testimonial_section .about_content {
-    background-color: #020d26;
+    background-color: #70ad47;
     padding-top: 77px;
     padding-right: 210px;
     padding-bottom: 62px;
@@ -343,7 +337,7 @@ p {
 }
 
 .testimonial_section .about_content .background_layer {
-    background-color: #020d26;
+    background-color: #70ad47;
     width: auto;
     margin-left: -200px;
     right: 0;
@@ -377,7 +371,7 @@ p {
     font-weight: 400;
     font-size: 15px;
     line-height: 28px;
-    color: #818a8f;
+    color: #e9ec01;
     margin-top: -5px;
     margin-bottom: 6px;
 }
@@ -389,7 +383,7 @@ p {
     line-height: 50px;
     padding-bottom: 51px;
     margin-bottom: 0px;
-    color: #d6d6d6;
+    color: #fff;
 }
 
 .testimonial_section .about_content .layer_content .section_title h2 strong {
@@ -689,6 +683,7 @@ footer h3 {
     text-transform: capitalize;
     font-weight: 600;
     margin-bottom: 32px;
+    color: #70ad47;
 }
 footer p {
     text-align: justify;
@@ -703,7 +698,7 @@ footer .footer-social li {
 }
 .footer-social .fa {
     margin: 0px 5px;
-    background-color: #ff5e14;
+    background-color: #70ad47;
     padding: 10px 10px;
     border-radius: 100px;
     color: #fff;
@@ -720,6 +715,12 @@ footer .footer-social li {
     line-height: 36px;
     font-weight: 500;
     text-transform: capitalize;
+}
+.footer-contact .fa {
+    color: #70ad47;
+    margin-right: 11px;
+    margin-top: 4px;
+    font-weight: 600;
 }
 .footer-contact li {
     list-style: none;
