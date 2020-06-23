@@ -91,7 +91,7 @@ p {
     font-weight: 700;
 }
 .kloud-intro i {
-    color: #ff5e14;
+    color: #448be4;
     font-weight: 700;
     font-style: normal;
 }
@@ -195,8 +195,8 @@ p {
     height: auto !important;
 }
 .about .btn-danger {
-    background-color: #ff5e14;
-    border-color: #ff5e14;
+    background-color: #1d83b9;
+    border-color: #1d83b9;
     border-radius: 25px;
     padding: 10px 23px;
     font-weight: 600;
@@ -314,8 +314,8 @@ p {
     overflow: hidden;
 }
 .testimonial_section .btn-dark {
-    background-color: #ff5e14;
-    border-color: #ff5e14;
+    background-color: #387111;
+    border-color: #387111;
     border-radius: 25px;
     padding: 10px 23px;
     font-size: 16px !important;
@@ -461,7 +461,7 @@ p {
 }
 
 .testimonial_section .testimonial_box .testimonial_container .background_layer {
-    background-color: #ff5e14;
+    background-color: #585858;
     width: auto;
     margin-right: -200px;
     right: 0;
@@ -566,7 +566,7 @@ p {
     top: 165px;
     right: 42px;
     border-radius: 0;
-    background: #ff5e14;
+    background: #70ad47;
     display: block;
     outline: 0;
     width: 34px;
@@ -588,7 +588,7 @@ p {
     right: 5px;
     border-radius: 0;
     display: block;
-    background: #ff5e14;
+    background: #70ad47;
     outline: 0;
     width: 34px;
     text-align: center;
