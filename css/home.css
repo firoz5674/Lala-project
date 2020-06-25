@@ -39,17 +39,17 @@ p {
 }
 @media (min-width: 320px) and (max-width: 375px) {
     .navbar-brand {
-        font-size: 20px;
+        font-size: 16px;
     }
 }
 @media (min-width: 375px) and (max-width: 414px) {
     .navbar-brand {
-        font-size: 20px;
+        font-size: 26px;
     }
 }
 @media (min-width: 414px) and (max-width: 568px) {
     .navbar-brand {
-        font-size: 22px;
+        font-size: 18px;
     }
 }
 
@@ -115,8 +115,9 @@ p {
         font-size: 22px;
     }
     .kloud-intro h2 {
-        font-size: 20px;
-        line-height: 27px;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 10px;
     }
 }
 @media (min-width: 375px) and (max-width: 414px) {
@@ -124,8 +125,8 @@ p {
         font-size: 22px;
     }
     .kloud-intro h2 {
-        font-size: 22px;
-        line-height: 30px;
+        font-size: 16px;
+        line-height: 24px;
     }
 }
 @media (min-width: 414px) and (max-width: 568px) {
@@ -133,8 +134,8 @@ p {
         font-size: 23px;
     }
     .kloud-intro h2 {
-        font-size: 23px;
-        line-height: 31px;
+        font-size: 18px;
+        line-height: 27px;
     }
 }
 /* //kloud intro */
@@ -160,6 +161,33 @@ p {
 .process figure {
     padding: 14px 0px;
     box-shadow: 2px 4px 9px rgba(0, 0, 0, 0.2);
+}
+@media (min-width: 320px) and (max-width: 375px) {
+    .process h2 {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    .process p {
+        font-size: 20px;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    .process h2 {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    .process p {
+        font-size: 20px;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    .process h2 {
+        margin-bottom: 10px;
+        font-size: 22px;
+    }
+    .process p {
+        font-size: 22px;
+    }
 }
 
 /* process */
@@ -230,15 +258,24 @@ p {
     .about h3 {
         font-size: 20px;
     }
+    .about h2 {
+        font-size: 22px;
+    }
 }
 @media (min-width: 375px) and (max-width: 414px) {
     .about h3 {
+        font-size: 22px;
+    }
+    .about h2 {
         font-size: 22px;
     }
 }
 @media (min-width: 414px) and (max-width: 568px) {
     .about h3 {
         font-size: 24px;
+    }
+    .about h2 {
+        font-size: 23px;
     }
 }
 
@@ -324,15 +361,24 @@ p {
     .portfolio {
         height: 1000px;
     }
+    .portfolio h2 {
+        font-size: 21px;
+    }
 }
 @media (min-width: 376px) and (max-width: 414px) {
     .portfolio {
         height: 1085px;
     }
+    .portfolio h2 {
+        font-size: 21px;
+    }
 }
 @media (min-width: 415px) and (max-width: 568px) {
     .portfolio {
         height: 1095px;
+    }
+    .portfolio h2 {
+        font-size: 23px;
     }
 }
 @media (max-width: 674px) {
@@ -727,6 +773,21 @@ p {
     display: inline-block;
     margin-right: 10px;
 }
+@media (min-width: 320px) and (max-width: 375px) {
+    .phone-whatsapp h4 {
+        font-size: 22px;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    .phone-whatsapp h4 {
+        font-size: 22px;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    .phone-whatsapp h4 {
+        font-size: 23px;
+    }
+}
 
 /* phone whatsapp number */
 
@@ -783,6 +844,22 @@ footer .footer-social li {
     margin-bottom: 12px;
     font-size: 17px;
     color: #4c4c4c;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    footer h3 {
+        font-size: 21px;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    footer h3 {
+        font-size: 21px;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    footer h3 {
+        font-size: 22px;
+    }
 }
 
 /* footer */
