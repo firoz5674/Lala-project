@@ -37,15 +37,27 @@ p {
     font-size: 17px;
     text-transform: uppercase;
 }
+@media (min-width: 320px) and (max-width: 375px) {
+    .navbar-brand {
+        font-size: 20px;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    .navbar-brand {
+        font-size: 20px;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    .navbar-brand {
+        font-size: 22px;
+    }
+}
 
 @media (max-width: 768px) {
-    .navbar-brand img {
-        width: 120px;
-    }
 
     #navbarContent {
         position: absolute;
-        top: 65px;
+        top: 47px;
         left: 0;
         z-index: 9999;
         width: 100%;
@@ -100,20 +112,29 @@ p {
 
 @media (min-width: 320px) and (max-width: 375px) {
     .kloud-intro h1 {
-        font-size: 32px;
+        font-size: 22px;
+    }
+    .kloud-intro h2 {
+        font-size: 20px;
+        line-height: 27px;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    .kloud-intro h1 {
+        font-size: 22px;
+    }
+    .kloud-intro h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    .kloud-intro h1 {
+        font-size: 23px;
     }
     .kloud-intro h2 {
         font-size: 23px;
-        line-height: 32px;
-    }
-}
-@media (min-width: 376px) and (max-width: 414px) {
-    .kloud-intro h1 {
-        font-size: 32px;
-    }
-    .kloud-intro h2 {
-        font-size: 25px;
-        line-height: 35px;
+        line-height: 31px;
     }
 }
 /* //kloud intro */
@@ -204,6 +225,21 @@ p {
     font-weight: 600;
     margin-top: 12px;
     margin-bottom: 26px;
+}
+@media (min-width: 320px) and (max-width: 375px) {
+    .about h3 {
+        font-size: 20px;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    .about h3 {
+        font-size: 22px;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    .about h3 {
+        font-size: 24px;
+    }
 }
 
 @media (max-width: 674px) {
@@ -604,6 +640,24 @@ p {
 
 .testimonial_section .testimonial_box .testimonial_container .owl-nav .owl-next:hover {
     background: #020d26;
+}
+@media (min-width: 320px) and (max-width: 375px) {
+    .testimonial_section .about_content .layer_content .section_title h2 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+}
+@media (min-width: 375px) and (max-width: 414px) {
+    .testimonial_section .about_content .layer_content .section_title h2 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+}
+@media (min-width: 414px) and (max-width: 568px) {
+    .testimonial_section .about_content .layer_content .section_title h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
 }
 
 @media all and (max-width: 991px) {
